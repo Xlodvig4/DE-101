@@ -1,0 +1,10 @@
+CREATE TABLE calendar_dim
+(
+ "date"     date NOT NULL,
+ year     int NOT NULL,
+ quarter  varchar(5) NOT NULL,
+ month    int NOT NULL,
+ week     int NOT NULL,
+ week_day int NOT NULL,
+ CONSTRAINT PK_5 PRIMARY KEY ( "date" )
+);
